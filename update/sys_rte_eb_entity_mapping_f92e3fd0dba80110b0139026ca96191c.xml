@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[/*  Example Script 
+ (function() {
+ 
+         //step1: access the input variables
+         if (input && input.temp.u_type == 'Disk') {
+         //step2: return true/false 
+            return true;
+         }
+         return false;
+ 
+ })();
+ */
+ 
+ (function(input) {
+     // Add your code here.
+ })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group/>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>table to json</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="sys_user">a2e22c10db200110b0139026ca961945</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 05:23:42</sys_created_on>
+        <sys_id>f92e3fd0dba80110b0139026ca96191c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>table to json</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="user-json">6f52e094db200110b0139026ca961960</sys_rte_eb_definition>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_f92e3fd0dba80110b0139026ca96191c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 05:23:56</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="scim_user">f5726494db200110b0139026ca961952</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>
